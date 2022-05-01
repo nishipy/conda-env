@@ -1,0 +1,34 @@
+name: kyopro
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h0d85af4_4
+  - ca-certificates=2021.10.8=h033912b_0
+  - expat=2.4.8=h96cf925_0
+  - gdbm=1.18=h8a0c380_2
+  - libcxx=13.0.1=hc203e6f_0
+  - libffi=3.4.2=h0d85af4_5
+  - libzlib=1.2.11=h6c3fc93_1014
+  - ncurses=6.3=h96cf925_1
+  - openssl=3.0.2=h6c3fc93_1
+  - pip=22.0.4=pyhd8ed1ab_0
+  - pypy=7.3.9=0_pypy39
+  - pypy3.9=7.3.9=h1e179d7_2
+  - python=3.9.12=0_73_pypy
+  - python_abi=3.9=2_pypy39_pp73
+  - readline=8.1=h05e3726_0
+  - setuptools=62.1.0=py39h43b90dd_0
+  - sqlite=3.38.2=hb516253_0
+  - tk=8.6.12=h5dbffcc_0
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - xz=5.2.5=haf1e3a3_1
+  - zlib=1.2.11=h6c3fc93_1014
+  - pip:
+    - autopep8==1.6.0
+    - flake8==4.0.1
+    - mccabe==0.6.1
+    - pycodestyle==2.8.0
+    - pyflakes==2.4.0
+    - toml==0.10.2
+prefix: /usr/local/Caskroom/miniconda/base/envs/kyopro
